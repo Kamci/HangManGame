@@ -1,0 +1,39 @@
+# ⚠️ Pliki systemowe (Windows, macOS, Linux)
+.DS_Store
+Thumbs.db
+*.log
+
+# ⚠️ Pliki edytorów i środowisk programistycznych
+.vscode/
+.idea/
+nbproject/
+*.iml
+
+# ⚠️ Pliki wynikowe kompilacji Java
+*.class
+*.jar
+*.war
+*.ear
+
+# ⚠️ Katalogi build, jeśli są generowane przez IDE lub kompilację
+bin/
+build/
+dist/
+out/
+target/
+
+# ⚠️ Pliki tymczasowe
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# ⚠️ Pliki konfiguracyjne, które mogą zawierać dane wrażliwe
+config.php
+config.json
+.env
+
+# ⚠️ Pliki zależności (jeśli używasz Maven/Gradle)
+*.lock
+*.gradle
